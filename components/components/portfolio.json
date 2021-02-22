@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_portfolios",
+  "info": {
+    "name": "Portfolio",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "Lines": {
+      "type": "component",
+      "repeatable": true,
+      "component": "helpers.lines"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

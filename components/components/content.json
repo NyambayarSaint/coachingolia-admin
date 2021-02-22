@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_contents",
+  "info": {
+    "name": "Content",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    },
+    "Container": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

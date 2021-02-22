@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "name": "Menu",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Page": {
+      "model": "pages"
+    }
+  }
+}

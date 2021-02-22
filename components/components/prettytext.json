@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_prettytexts",
+  "info": {
+    "name": "Prettytext",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "Caption": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

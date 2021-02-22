@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_helpers_socials",
+  "info": {
+    "name": "Social",
+    "icon": "external-link-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    }
+  }
+}

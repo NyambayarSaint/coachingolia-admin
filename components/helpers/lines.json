@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_helpers_lines",
+  "info": {
+    "name": "Lines",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

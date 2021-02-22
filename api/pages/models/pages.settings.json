@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Layout": {
+      "type": "dynamiczone",
+      "components": [
+        "components.video",
+        "components.image",
+        "components.prettytext",
+        "components.prettycolumn",
+        "components.portfolio",
+        "components.about",
+        "components.partners",
+        "components.content",
+        "components.contact"
+      ]
+    }
+  }
+}

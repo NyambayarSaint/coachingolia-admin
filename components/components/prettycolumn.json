@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_prettycolumns",
+  "info": {
+    "name": "Prettycolumn",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Caption": {
+      "type": "string"
+    },
+    "Left": {
+      "type": "richtext"
+    },
+    "Right": {
+      "type": "richtext"
+    }
+  }
+}

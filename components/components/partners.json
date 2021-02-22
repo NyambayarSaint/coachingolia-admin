@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_partners",
+  "info": {
+    "name": "Partners",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "helpers.partners"
+    }
+  }
+}
