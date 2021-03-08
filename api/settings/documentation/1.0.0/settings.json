@@ -332,30 +332,8 @@
                 "Title": {
                   "type": "string"
                 },
-                "Page": {
-                  "required": [
-                    "id"
-                  ],
-                  "properties": {
-                    "id": {
-                      "type": "string"
-                    },
-                    "Name": {
-                      "type": "string"
-                    },
-                    "Slug": {
-                      "type": "string"
-                    },
-                    "Layout": {
-                      "type": "dynamiczone"
-                    },
-                    "created_by": {
-                      "type": "string"
-                    },
-                    "updated_by": {
-                      "type": "string"
-                    }
-                  }
+                "Slug": {
+                  "type": "string"
                 }
               }
             }
@@ -486,30 +464,8 @@
                 "Title": {
                   "type": "string"
                 },
-                "Page": {
-                  "required": [
-                    "id"
-                  ],
-                  "properties": {
-                    "id": {
-                      "type": "string"
-                    },
-                    "Name": {
-                      "type": "string"
-                    },
-                    "Slug": {
-                      "type": "string"
-                    },
-                    "Layout": {
-                      "type": "dynamiczone"
-                    },
-                    "created_by": {
-                      "type": "string"
-                    },
-                    "updated_by": {
-                      "type": "string"
-                    }
-                  }
+                "Slug": {
+                  "type": "string"
                 }
               }
             }

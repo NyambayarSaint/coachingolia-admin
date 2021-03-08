@@ -9,8 +9,8 @@
     "Title": {
       "type": "string"
     },
-    "Page": {
-      "model": "pages"
+    "Slug": {
+      "type": "string"
     }
   }
 }

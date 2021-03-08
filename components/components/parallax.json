@@ -1,17 +1,11 @@
 {
-  "collectionName": "components_components_abouts",
+  "collectionName": "components_components_parallaxes",
   "info": {
-    "name": "About",
-    "icon": "audio-description"
+    "name": "Parallax",
+    "icon": "band-aid"
   },
   "options": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "Caption": {
-      "type": "string"
-    },
     "Image": {
       "model": "file",
       "via": "related",
@@ -23,12 +17,20 @@
       "plugin": "upload",
       "required": false
     },
-    "Text": {
-      "type": "richtext"
+    "Info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "helpers.info"
     },
     "Reversed": {
       "type": "boolean",
-      "default": true
+      "default": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Caption": {
+      "type": "string"
     }
   }
 }

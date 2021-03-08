@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_helpers_boxes",
+  "info": {
+    "name": "Boxes",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}

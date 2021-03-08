@@ -26,7 +26,10 @@
         "components.about",
         "components.partners",
         "components.content",
-        "components.contact"
+        "components.contact",
+        "components.aboutparallax",
+        "components.parallax",
+        "components.bloggrids"
       ]
     }
   }

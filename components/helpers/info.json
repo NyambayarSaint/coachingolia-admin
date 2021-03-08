@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_helpers_infos",
+  "info": {
+    "name": "Info",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_bloggrids",
+  "info": {
+    "name": "Bloggrids",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "SearchCaption": {
+      "type": "string"
+    },
+    "SearchPlaceholder": {
+      "type": "string"
+    },
+    "SortByDate": {
+      "type": "string"
+    },
+    "NewToOld": {
+      "type": "string"
+    },
+    "OldToNew": {
+      "type": "string"
+    },
+    "SearchResult": {
+      "type": "string"
+    },
+    "LoadMore": {
+      "type": "string"
+    },
+    "NoResult": {
+      "type": "string"
+    }
+  }
+}

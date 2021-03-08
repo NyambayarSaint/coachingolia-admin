@@ -545,7 +545,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -636,7 +639,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -727,7 +733,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -757,7 +766,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -793,7 +805,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -904,7 +919,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -985,6 +1003,10 @@
                     },
                     "Text": {
                       "type": "string"
+                    },
+                    "Reversed": {
+                      "type": "boolean",
+                      "default": true
                     }
                   },
                   "required": [
@@ -1004,7 +1026,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1115,7 +1140,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1146,7 +1174,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1156,6 +1187,289 @@
                       "type": "string"
                     },
                     "Description": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "Image": {
+                      "required": [
+                        "id",
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "Boxes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "Text": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "Image": {
+                      "required": [
+                        "id",
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "Info": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "Content": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "Reversed": {
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "Title": {
+                      "type": "string"
+                    },
+                    "Caption": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "SearchCaption": {
+                      "type": "string"
+                    },
+                    "SearchPlaceholder": {
+                      "type": "string"
+                    },
+                    "SortByDate": {
+                      "type": "string"
+                    },
+                    "NewToOld": {
+                      "type": "string"
+                    },
+                    "OldToNew": {
+                      "type": "string"
+                    },
+                    "SearchResult": {
+                      "type": "string"
+                    },
+                    "LoadMore": {
+                      "type": "string"
+                    },
+                    "NoResult": {
                       "type": "string"
                     }
                   },
@@ -1281,7 +1595,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1372,7 +1689,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1463,7 +1783,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1493,7 +1816,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1529,7 +1855,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1640,7 +1969,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1721,6 +2053,10 @@
                     },
                     "Text": {
                       "type": "string"
+                    },
+                    "Reversed": {
+                      "type": "boolean",
+                      "default": true
                     }
                   },
                   "required": [
@@ -1740,7 +2076,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1851,7 +2190,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1882,7 +2224,10 @@
                         "components.about",
                         "components.partners",
                         "components.content",
-                        "components.contact"
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
                       ]
                     },
                     "id": {
@@ -1892,6 +2237,289 @@
                       "type": "string"
                     },
                     "Description": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "Image": {
+                      "required": [
+                        "id",
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "Boxes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "Text": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "Image": {
+                      "required": [
+                        "id",
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "Info": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "Content": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "Reversed": {
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "Title": {
+                      "type": "string"
+                    },
+                    "Caption": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "SearchCaption": {
+                      "type": "string"
+                    },
+                    "SearchPlaceholder": {
+                      "type": "string"
+                    },
+                    "SortByDate": {
+                      "type": "string"
+                    },
+                    "NewToOld": {
+                      "type": "string"
+                    },
+                    "OldToNew": {
+                      "type": "string"
+                    },
+                    "SearchResult": {
+                      "type": "string"
+                    },
+                    "LoadMore": {
+                      "type": "string"
+                    },
+                    "NoResult": {
                       "type": "string"
                     }
                   },
