@@ -31,6 +31,18 @@
     },
     "Caption": {
       "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "EmailLink": {
+      "type": "string"
+    },
+    "Website": {
+      "type": "string"
+    },
+    "WebsiteLink": {
+      "type": "string"
     }
   }
 }

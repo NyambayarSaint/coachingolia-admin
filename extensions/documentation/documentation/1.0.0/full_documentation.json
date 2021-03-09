@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/08/2021 5:41:16 PM"
+    "x-generation-date": "03/09/2021 10:46:46 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3868,6 +3868,9 @@
                           "type": "string"
                         }
                       }
+                    },
+                    "Title": {
+                      "type": "string"
                     }
                   },
                   "required": [
@@ -4573,6 +4576,18 @@
                       "type": "string"
                     },
                     "Caption": {
+                      "type": "string"
+                    },
+                    "Email": {
+                      "type": "string"
+                    },
+                    "EmailLink": {
+                      "type": "string"
+                    },
+                    "Website": {
+                      "type": "string"
+                    },
+                    "WebsiteLink": {
                       "type": "string"
                     }
                   },
@@ -4918,6 +4933,9 @@
                           "type": "string"
                         }
                       }
+                    },
+                    "Title": {
+                      "type": "string"
                     }
                   },
                   "required": [
@@ -5623,6 +5641,18 @@
                       "type": "string"
                     },
                     "Caption": {
+                      "type": "string"
+                    },
+                    "Email": {
+                      "type": "string"
+                    },
+                    "EmailLink": {
+                      "type": "string"
+                    },
+                    "Website": {
+                      "type": "string"
+                    },
+                    "WebsiteLink": {
                       "type": "string"
                     }
                   },

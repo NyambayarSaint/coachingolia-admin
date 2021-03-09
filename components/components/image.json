@@ -16,6 +16,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }
