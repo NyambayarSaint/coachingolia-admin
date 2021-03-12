@@ -25,7 +25,7 @@ module.exports = {
       // TO SEND EMAIL
       transporter.sendMail({
         from: 'nyambayar.saint@gmail.com',
-        to: `shine.dagva@coachingolia.com`,
+        to: `shine.dagva@gmail.com`,
         subject: entity.subject,
         html: entity.message
       }, function (error, info) {
