@@ -1,4 +1,15 @@
 const { parseMultipartData, sanitizeEntity } = require('strapi-utils');
+const nodemailer = require('nodemailer');
+
+const transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
+  auth: {
+    user: 'nyambayar.saint@gmail.com',
+    pass: 'Popersia1997n'
+  }
+});
 
 module.exports = {
   async create(ctx) {
@@ -9,13 +20,22 @@ module.exports = {
     } else {
       entity = await strapi.services.inbox.create(ctx.request.body);
     }
-    console.log(entity,'entity');
-    // await strapi.plugins['email'].services.email.send({
-    //     to: 'shine.dagva@coachingolia.com, nyambayar.saint@gmail.com',
-    //     from: 'no-reply@strapi.io',
-    //     subject: entity.subject,
-    //     text: entity.message
-    // });
+
+    try {
+      // TO SEND EMAIL
+      transporter.sendMail({
+        from: 'nyambayar.saint@gmail.com',
+        to: `shine.dagva@coachingolia.com`,
+        subject: entity.subject,
+        html: entity.message
+      }, function (error, info) {
+        if (error) throw new Error(error)
+        else console.log(info.response)
+      });
+    }
+    catch (e) {
+      console.log(e, 'fail');
+    }
     return sanitizeEntity(entity, { model: strapi.models.inbox });
   },
 };
