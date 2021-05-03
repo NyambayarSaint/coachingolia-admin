@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_helpers_tabs",
+  "info": {
+    "name": "Tabs",
+    "icon": "equals"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

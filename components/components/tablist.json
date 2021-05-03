@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_tablists",
+  "info": {
+    "name": "Tablist",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "helpers.tabs"
+    }
+  }
+}

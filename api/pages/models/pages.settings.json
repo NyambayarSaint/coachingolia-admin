@@ -29,7 +29,8 @@
         "components.contact",
         "components.aboutparallax",
         "components.parallax",
-        "components.bloggrids"
+        "components.bloggrids",
+        "components.tablist"
       ]
     }
   }
