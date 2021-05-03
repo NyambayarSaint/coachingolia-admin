@@ -26,7 +26,8 @@
     "strapi-plugin-graphql": "^3.1.1",
     "strapi-plugin-upload": "3.1.1",
     "strapi-plugin-users-permissions": "3.1.1",
-    "strapi-provider-upload-google-cloud-storage": "^3.1.6",
+    "strapi-provider-upload-cloudinary": "3.1.6",
+    "strapi-provider-upload-google-cloud-storage": "3.1.6",
     "strapi-utils": "3.1.1",
     "suneditor-react": "^2.13.1"
   },
