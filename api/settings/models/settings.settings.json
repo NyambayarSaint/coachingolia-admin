@@ -18,6 +18,11 @@
       "type": "component",
       "repeatable": true,
       "component": "helpers.social"
+    },
+    "Promotion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "helpers.promotion"
     }
   }
 }
