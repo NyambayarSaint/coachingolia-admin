@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_registers",
+  "info": {
+    "name": "Register",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

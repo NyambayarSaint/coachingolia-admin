@@ -30,7 +30,9 @@
         "components.aboutparallax",
         "components.parallax",
         "components.bloggrids",
-        "components.tablist"
+        "components.tablist",
+        "components.register",
+        "components.reg"
       ]
     }
   }

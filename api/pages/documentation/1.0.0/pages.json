@@ -549,7 +549,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -621,6 +623,13 @@
                           "type": "string"
                         }
                       }
+                    },
+                    "Container": {
+                      "type": "boolean",
+                      "default": true
+                    },
+                    "Height": {
+                      "type": "integer"
                     }
                   },
                   "required": [
@@ -644,7 +653,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -742,7 +753,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -776,7 +789,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -816,7 +831,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -931,7 +948,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1039,7 +1058,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1154,7 +1175,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1189,7 +1212,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1223,7 +1248,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1335,7 +1362,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1469,7 +1498,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1521,7 +1552,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1549,6 +1582,90 @@
                           }
                         }
                       }
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids",
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "Title": {
+                      "type": "string"
+                    },
+                    "Description": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids",
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "firstname": {
+                      "type": "string"
+                    },
+                    "lastname": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "subject": {
+                      "type": "string"
+                    },
+                    "phone": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
                     }
                   },
                   "required": [
@@ -1677,7 +1794,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1749,6 +1868,13 @@
                           "type": "string"
                         }
                       }
+                    },
+                    "Container": {
+                      "type": "boolean",
+                      "default": true
+                    },
+                    "Height": {
+                      "type": "integer"
                     }
                   },
                   "required": [
@@ -1772,7 +1898,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1870,7 +1998,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1904,7 +2034,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -1944,7 +2076,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2059,7 +2193,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2167,7 +2303,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2282,7 +2420,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2317,7 +2457,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2351,7 +2493,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2463,7 +2607,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2597,7 +2743,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2649,7 +2797,9 @@
                         "components.aboutparallax",
                         "components.parallax",
                         "components.bloggrids",
-                        "components.tablist"
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
                       ]
                     },
                     "id": {
@@ -2677,6 +2827,90 @@
                           }
                         }
                       }
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids",
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "Title": {
+                      "type": "string"
+                    },
+                    "Description": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "components.video",
+                        "components.image",
+                        "components.prettytext",
+                        "components.prettycolumn",
+                        "components.portfolio",
+                        "components.about",
+                        "components.partners",
+                        "components.content",
+                        "components.contact",
+                        "components.aboutparallax",
+                        "components.parallax",
+                        "components.bloggrids",
+                        "components.tablist",
+                        "components.register",
+                        "components.reg"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "firstname": {
+                      "type": "string"
+                    },
+                    "lastname": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "subject": {
+                      "type": "string"
+                    },
+                    "phone": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
                     }
                   },
                   "required": [

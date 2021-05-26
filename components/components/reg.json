@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_regs",
+  "info": {
+    "name": "Reg",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}
